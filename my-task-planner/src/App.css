@@ -124,3 +124,87 @@ button {
   border: none;
   background: none;
 }
+/* Responsividade */
+.container {
+  width: 90%;
+  max-width: 800px;
+}
+
+@media (max-width: 768px) {
+  .task-table th, .task-table td {
+    padding: 10px;
+  }
+
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .new-task-input {
+    font-size: 14px;
+  }
+
+  .add-btn, .edit-btn, .delete-btn {
+    font-size: 20px;
+  }
+}
+
+/* Melhoria nos botões */
+.add-btn,
+.edit-btn,
+.delete-btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.add-btn:hover,
+.edit-btn:hover,
+.delete-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Animação suave nos círculos de status */
+.status-circle {
+  transition: background-color 0.5s ease;
+}
+
+/* Estilo da barra de navegação */
+.nav-link.active {
+  font-size: 18px;
+  border-bottom: 2px solid #ffcc00;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+}
+/* Estilos para upload de fotos */
+.dropzone {
+  display: inline-block;
+  padding: 10px;
+  border: 2px dashed #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  margin-top: 10px;
+}
+
+.dropzone button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.dropzone button:hover {
+  color: #0056b3;
+}
+
+img {
+  border-radius: 5px;
+  margin-right: 5px;
+}
