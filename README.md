@@ -14,7 +14,7 @@ O Planejador Diário é um aplicativo simples para organizar suas tarefas do dia
    ```bash
    git clone https://github.com/seu-usuario/planejador-diario.git
    ## Funcionalidades
-
+# Funcionalidades
 - Adicionar nova tarefa
 - Editar e deletar tarefas
 - Alternar status de cada tarefa (Vermelho -> Amarelo -> Verde)
